@@ -38,3 +38,11 @@ It is a transparent, interpretable starting point for modeling — appropriate f
 This method aligns well with the goal of explanation and understanding, rather than prediction accuracy alone.
 
 The limit of multiple linear regression model is that the real player behavior may be non-linear, meaning linear regression could oversimplify complex relationships. Also, some outliers (e.g., extremely active players) can affect results.
+
+
+6. Data Processing Plan Before modeling:
+Data Cleaning: Handle missing values, inconsistent entries, and ensure correct data types.
+
+Feature Engineering: Add features like average session duration or total sessions per player by joining players.csv and sessions.csv.
+
+Splitting the Data: The data will be split into training (80%) and testing (20%) sets to evaluate model performance. Splitting will occur after cleaning and feature creation, but before any model fitting.
