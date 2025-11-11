@@ -1,5 +1,7 @@
 # Individual_planning
 
+author: Wendy Zhang
+
 library(tidyverse)
 
 players <- read_csv("players.csv")
